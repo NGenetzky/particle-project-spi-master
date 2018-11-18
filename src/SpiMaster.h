@@ -1,6 +1,7 @@
 
 #pragma once
-#include "application.h" // Required for Particle.
+#include "Particle.h" // Required for Particle.
+#include "Arduino.h" // Required for Arduino Compatibility.
 
 // The hardware SPI pin functions, which can be used via the SPI object, are mapped as follows:
 // SS => A2 (default)
